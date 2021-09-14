@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: Open, sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -16,7 +18,4 @@ li {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-
-justify-content: space-around;
-
   }
