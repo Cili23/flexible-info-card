@@ -5,3 +5,18 @@
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+justify-content: space-around;
+
+  }
