@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Open, sans-serif;
+  font-family: "Open Sans" sans-serif;
   line-height: 1.5;
 }
 
@@ -8,14 +8,50 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  marrgin: 0;
+  background: #ccc;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 li {
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: .1rem 1rem 1,5rem;
   }
+
+img {
+  width: 5rem;
+  margin-right: 1.5em;
+  justify-content: space-between;
+}
+
+p {
+width: 24rem;
+}
+
+h3 {
+margin border-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  background-color: #444;
+  color: #ccc;
+  padding: .5em 1rem .6rem;
+}
