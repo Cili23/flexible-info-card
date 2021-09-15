@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Open Sans" sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
 
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  marrgin: 0;
+  margin: 0;
   background: #ccc;
 }
 
@@ -32,7 +32,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: .1rem 1rem 1,5rem;
+  margin: .1rem 1rem 1.5rem;
   }
 
 img {
@@ -45,8 +45,17 @@ p {
 width: 24rem;
 }
 
+hgroup {
+  width: 16rem;
+  padding: .2rem .5rem 0;
+}
+
 h3 {
-margin border-bottom: 0;
+margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 0;
 }
 
 a {
